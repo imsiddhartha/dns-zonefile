@@ -1,7 +1,7 @@
 declare module "dns-zonefile" {
   interface DNSZone {
-    $origin?: string;
     $ttl?: number;
+    $origin?: string;
     soa?: {
       name: string;
       minimum: number;

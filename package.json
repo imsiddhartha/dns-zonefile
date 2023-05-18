@@ -1,7 +1,7 @@
 {
-  "name": "dns-zonefile",
+  "name": "dns-zonefile-parser",
   "version": "0.3.2",
-  "description": "A DNS zone file parser and generator.",
+  "description": "A DNS zone file parser and generator, supports special records for Azure DNS.",
   "main": "./lib/zonefile.js",
   "types": "./lib/zonefile.d.ts",
   "bin": {
@@ -13,14 +13,15 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/elgs/dns-zonefile.git"
+    "url": "https://github.com/imsiddhartha/dns-zonefile.git"
   },
   "keywords": [
+    "Azure",
     "DNS",
     "zone",
     "cli"
   ],
-  "author": "Qian Chen",
+  "author": "Siddharth Saklecha",
   "license": "ISC",
   "contributors": [
     {
